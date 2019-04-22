@@ -11,7 +11,7 @@ ProxyPort = 4100
 error_answer = ''
 
 
-@ReForm.route('/')
+@ReForm.route('/registration')
 def index():
     form = LoginForm()
     compare_string = send_commands(ProxyIP, ProxyPort, myIP)

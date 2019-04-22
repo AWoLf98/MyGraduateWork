@@ -17,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
@@ -26,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReForm/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="68">
               <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -35,26 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ReForm/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="119">
               <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ReForm/routes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1649">
-              <caret line="97" column="57" lean-forward="true" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="57" />
-              <folding>
-                <element signature="e#26#51#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReForm/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-46">
+            <state relative-caret-position="17">
               <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
             </state>
           </provider>
@@ -139,12 +124,6 @@
               <item name="FlaskRegForm" type="b2602c69:ProjectViewProjectNode" />
               <item name="FlaskRegForm" type="462c0819:PsiDirectoryNode" />
               <item name="ReForm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FlaskRegForm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FlaskRegForm" type="462c0819:PsiDirectoryNode" />
-              <item name="ReForm" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -253,11 +232,12 @@
       <workItem from="1554107043517" duration="9459000" />
       <workItem from="1554366449901" duration="45984000" />
       <workItem from="1554802583102" duration="38305000" />
+      <workItem from="1555973948685" duration="329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120901000" />
+    <option name="totallyTimeSpent" value="121230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,9 +250,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" weight="0.12708019" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4977169" visible="true" weight="0.12708019" />
       <window_info id="Structure" order="1" sideWeight="0.5022831" side_tool="true" weight="0.12708019" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,23 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReForm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReForm/templates/result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -430,19 +392,36 @@
     <entry file="file://$USER_HOME$/Desktop/Javascript/Урок 2. CSS и JavaScript/001_CSS_Selectors/001_Id_And_Classes.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReForm/forms.py">
+    <entry file="file://$USER_HOME$/Desktop/mynewprogram.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReForm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ReForm/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-46">
+        <state relative-caret-position="17">
           <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
         </state>
       </provider>
@@ -454,20 +433,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/mynewprogram.py">
+    <entry file="file://$PROJECT_DIR$/ReForm/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReForm/routes.py">
+    <entry file="file://$PROJECT_DIR$/ReForm/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="97" column="57" lean-forward="true" selection-start-line="97" selection-start-column="57" selection-end-line="97" selection-end-column="57" />
-          <folding>
-            <element signature="e#26#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
         </state>
       </provider>
     </entry>
