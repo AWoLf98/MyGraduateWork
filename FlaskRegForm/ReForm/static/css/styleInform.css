@@ -1,0 +1,22 @@
+.myInformOneDiv{
+    margin-top: 8%;
+    position: absolute;
+    margin-left: 50%;
+}
+.myInformTwoDiv {
+    width: 100%;
+    height: 316px;
+    background-color: #3786bd;
+    margin-left: -50%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: "LineAwesome";
+}
+.myErrorCode {
+    padding-top: 115px;
+}
+.myDescription {
+    padding-left: 150px;
+    padding-right: 150px;
+}

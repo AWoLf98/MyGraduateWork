@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/opensans-font.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='fonts/line-awesome/css/line-awesome.min.css') }}">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+</head>
+<body class="form-v4">
+	<div class="page-content">
+		<div class="form-v4-content">
+			<div class="form-left">
+				<h2>Authentication</h2>
+                {% if submitAuth == form.agreeSubmit %}
+                    <form action="https://zimbra.vlabs.knu.ua/" method="post">
+                        <p class="text-1">{{ agreeAuth }}</p>
+                        <div class="my-div-img">
+                            <img src="https://img.icons8.com/dusk/64/000000/checked.png">
+                        </div>
+                        <div class="form-left-last">
+                            {{ submitAuth(class_="account") }}
+				        </div>
+                    </form>
+                {% else %}
+                    <p class="text-2"><span>{{ errorAuthWar }}</span>{{ errorAuth }}</p>
+                        <div class="my-div-img">
+                            <img src="https://img.icons8.com/dusk/64/000000/error.png">
+                        </div>
+                    <form action="http://authproxy.knu.ua/" method="post">
+                        <div class="form-left-last">
+                            {{ submitAuth(class_="account") }}
+				        </div>
+                    </form>
+                {% endif %}
+			</div>
+			<form class="form-detail" action="/inform" method="post"> <!--id="myform">-->
+                {{ form.hidden_tag() }}
+				<h2>REGISTER FORM</h2>
+				<div class="form-group">
+					<div class="form-row form-row-1">
+                        {{ form.firstName.label }}
+                        {{ form.firstName(size=32) }}
+					</div>
+					<div class="form-row form-row-1">
+                        {{ form.lastName.label }}
+                        {{ form.lastName(size =32) }}
+					</div>
+				</div>
+				<div class="form-row">
+                    {{ form.username.label }}
+                    {{ form.username(size=32) }}
+				</div>
+				<div class="form-group">
+					<div class="form-row form-row-1 ">
+                        {{ form.password.label }}
+                        {{ form.password(size =32) }}
+					</div>
+					<div class="form-row form-row-1">
+                        {{ form.cPassword.label }}
+                        {{ form.cPassword(size =32) }}
+					</div>
+				</div>
+                <div class="form-checkbox">
+                    <p>*Всі поля є обов'язковими</p>
+                </div>
+				<div class="form-checkbox">
+					<label class="container"><p>Я уважно перевірив всі введені мною дані</p>
+                        {{ form.agreeVer() }}
+					  	<span class="checkmark"></span>
+					</label>
+				</div>
+				<div class="form-row-last">
+                    {{ form.submit(class_="register") }}
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+	<script>
+		// just for the demos, avoids form submit
+		jQuery.validator.setDefaults({
+		  	debug: true,
+		  	success:  function(label){
+        		label.attr('id', 'valid');
+   		 	},
+		});
+		$( "#myform" ).validate({
+		  	rules: {
+			    password: "required",
+		    	cPassword: {
+		      		equalTo: "#password"
+		    	}
+		  	},
+		  	messages: {
+		  		firstName: {
+		  			required: "Please enter a firstname"
+		  		},
+		  		lastName: {
+		  			required: "Please enter a lastname"
+		  		},
+		  		username: {
+		  			required: "Please provide an email"
+		  		},
+		  		password: {
+	  				required: "Please enter a password"
+		  		},
+		  		cPassword: {
+		  			required: "Please enter a password",
+		      		equalTo: "Wrong Password"
+		    	}
+		  	}
+		});
+	</script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

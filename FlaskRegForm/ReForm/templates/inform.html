@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+	<title>Registration form</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/opensans-font.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='fonts/line-awesome/css/line-awesome.min.css') }}">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleInform.css') }}"/>
+</head>
+<body>
+    <div class="myInformOneDiv">
+        <div class="myInformTwoDiv">
+            <p class="myErrorCode">{{ errorCode }}</p>
+            <p class="myDescription">{{ informMessege }}</p>
+            {% if error_answer %}
+                <p class="myDescription">{{ error_answer }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
