@@ -93,8 +93,10 @@ def verify_inform_page():
         error_answer = "CHECKBOX IS FALSE"
         return False
     compare_string = send_commands(ProxyIP, ProxyPort, myIP)
-    if not compare_format(compare_string.decode('ascii'),
+    if  compare_format(compare_string.decode('ascii'),
                           r'^[0-9]{1,10}\s[0-9A-Za-z\-_]{1,30}\s[0-9]{1,2}\s[0-9]{1,2}\s'):
         error_answer = "YOU DON`T CONNECT WITH AUTHPROXY"
         return False
     return True
+def verify_same_username():
+    return 1
